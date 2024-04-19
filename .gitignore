@@ -1,0 +1,4 @@
+./vue/dist
+./vue/node_modules/
+/vendor/
+.idea

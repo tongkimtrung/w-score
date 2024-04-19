@@ -1,0 +1,40 @@
+.p-menu {
+    &.p-menu-overlay {
+        padding: 8px 0;
+
+        ol, ul, dl {
+            margin: unset;
+            padding: unset;
+        }
+
+        .p-menuitem-link {
+            text-decoration: none;
+        }
+    }
+}
+
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+    background: var(--Gray-50);
+}
+
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content {
+    background: var(--Primary-500);
+}
+
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+    color: #fff;
+}
+
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+    background: #e0ebff !important;
+}
+.p-menu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+    color: #000;
+}
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover .p-menuitem-link .p-menuitem-text {
+    color: #000 !important;
+}
+
+.p-menu .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:focus {
+    background: #e0ebff !important;
+}

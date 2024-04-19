@@ -1,0 +1,28 @@
+.p-slider .p-slider-handle {
+  width: 20px;
+  height: 20px;
+}
+
+.p-slider.p-slider-horizontal {
+  height: 3px;
+}
+
+.p-slider.p-slider-horizontal .p-slider-handle {
+  margin-top: -10px;
+}
+
+.p-slider .p-slider-range {
+  background: #FA8232;
+}
+
+.p-slider .p-slider-handle {
+  border-color: #FA8232;
+}
+
+.p-slider .p-slider-handle:focus {
+  box-shadow: unset;
+}
+
+.p-slider:not(.p-disabled) .p-slider-handle:hover {
+  background: #FA8232;
+}

@@ -1,0 +1,31 @@
+.p-checkbox .p-checkbox-box {
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.p-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  border-color: var(--Primary-500);
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  box-shadow: unset;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight {
+  border-color: var(--Primary-500);
+  background: var(--Primary-500);
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  border-color: var(--Primary-500);
+}
+
+.p-checkbox-checked ~ label {
+  color: var(--Gray-900);
+}

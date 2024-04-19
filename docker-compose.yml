@@ -1,0 +1,31 @@
+services:
+
+    server:
+        container_name: w-backend
+        build:
+            context: .
+            dockerfile: "docker/Backend"
+        volumes:
+            - ./:/var/www/html
+            - ./docker/config/php:/usr/local/etc/
+        ports:
+            - 9000:80
+
+    mysql_db:
+        container_name: w-mysql
+        image: mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: word_score
+        ports:
+            - 3007:3306
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
+
+    phpmyadmin:
+        container_name: w-phpmyadmin
+        image: phpmyadmin:latest
+        ports:
+            - 9001:80
+        environment:
+            - PMA_ARBITRARY=1

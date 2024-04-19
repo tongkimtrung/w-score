@@ -1,0 +1,77 @@
+.p-calendar .p-inputtext.p-component {
+    border: none !important;
+}
+
+.p-calendar .p-button {
+    background-color: #fff !important;
+    border: none !important;
+    height: 30px;
+    width: 34px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-calendar .p-button .pi.pi-calendar.p-button-icon::before {
+    content: "";
+    position: absolute;
+    background: transparent url('@public/assets/images/Sprites.64af8f61.svg') no-repeat -264px 0;
+    height: 24px;
+    width: 24px;
+    top: 5px;
+    left: 5px;
+}
+
+.p-datepicker .p-timepicker {
+    padding: 0 !important;
+}
+
+.p-datepicker table td {
+    padding: 2px !important;
+}
+
+.p-datepicker table td > span {
+    border-radius: 20px !important;
+    width: 36px !important;
+    height: 36px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ms-calendar:before {
+    content: "";
+    position: absolute;
+    background: transparent url('@public/assets/images/Sprites.64af8f61.svg') no-repeat -264px 0;
+    height: 24px;
+    width: 24px;
+    top: 5px;
+    left: 5px;
+}
+
+.p-calendar {
+    border: 1px solid #e0e0e0;
+    border-radius: 3.5px;
+    height: 36px;
+    position: relative;
+    display: inline-flex;
+    max-width: 100%;
+
+    &.p-focus {
+        border-color: #0073e6;
+    }
+
+    .p-button {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.p-calendar.error {
+    border: 1px solid #ef5350;
+}
+
+.p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
+    box-shadow: unset;
+}

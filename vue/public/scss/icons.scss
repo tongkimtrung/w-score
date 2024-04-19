@@ -1,0 +1,379 @@
+.icon16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.icon20 {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.icon24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    position: relative;
+    background-position: center;
+}
+
+.icon24-only {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.icon-error-text {
+    height: 14px;
+    width: 14px;
+    display: inline-flex;
+    background-image: url('@public/assets/icons/error-icon.svg');
+}
+
+span.icon24 {
+    margin-top: 2px;
+}
+
+.icon60 {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    position: relative;
+}
+
+.icon24:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+}
+
+.icon24.ic-change-password:before {
+    background: transparent url('@public/assets/icons/ic_change_password.35654efd.svg') no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon24.delete:before {
+    background-position: -336px -72px;
+}
+
+.icon16.icon-note {
+    background: transparent url('@public/assets/icons/info-circle.b41a442e.svg') no-repeat;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.icon24.back:before {
+    background-position: -336px 0;
+}
+
+.icon24.add-blue:before {
+    background-image: url('@public/assets/icons/add_blue.6a2d268a.svg');
+    background-position: 50%;
+}
+
+.icon24:before {
+    height: 24px;
+    width: 24px;
+}
+
+.icon24.ic-setting-profile:before {
+    background: transparent url('@public/assets/icons/ic_setting_profile.10919537.svg') no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon24.logout:before {
+    background: transparent url('@public/assets/icons/ic_log_out.c8494c69.svg') no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon32 {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.icon {
+    /* background: url(../../assets/images/Sprites.64af8f61.svg) no-repeat; */
+    cursor: pointer;
+}
+
+.error-icon {
+    margin: 5px 2px 0 0;
+}
+
+.icon.search-right {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon24.search:before {
+    background-position: -289px -24px;
+}
+
+.cego_sprites {
+    background: transparent url('@public/assets/images/CeGo_Sprites.f3e906b1.svg') no-repeat;
+}
+
+.icon-excel {
+    background: transparent url('@public/assets/icons/zip.svg') no-repeat;
+    background-size: contain;
+    filter: invert(36%) sepia(88%) saturate(2399%) hue-rotate(207deg) brightness(101%) contrast(101%);
+    background-position: center;
+}
+
+.icon-zip {
+    background: transparent url('@public/assets/icons/zip.svg') no-repeat;
+    background-size: contain;
+    filter: invert(36%) sepia(88%) saturate(2399%) hue-rotate(207deg) brightness(101%) contrast(101%);
+    background-position: center;
+}
+
+.sprites {
+    background: transparent url('@public/assets/images/Sprites.64af8f61.svg') no-repeat;
+}
+
+
+.icon24:before {
+    content: "";
+    position: absolute;
+    background: transparent url('@public/assets/images/Sprites.64af8f61.svg') no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon24.add-white:before {
+    background-position: -192px -96px;
+}
+
+.icon24.edit:before {
+    background-position: 0 -72px;
+}
+
+.icon24.chevron-down-white:before {
+    background-position: -242px -168px;
+}
+
+.icon24.upload:before {
+    background-position: -312px 0px;
+}
+
+.icon24.more:before {
+    background-position: -168px -48px;
+}
+
+.close-button:before {
+    content: "";
+    display: block;
+    background: transparent url('@public/assets/images/Sprites.64af8f61.svg') no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.close-button:before {
+    background-position: -242px -26px;
+}
+
+.icon24.filter:before {
+    background-position: -96px -48px;
+}
+
+.icon-heart_black {
+    background-image: url('@public/assets/icons/Heart_black.svg');
+}
+
+.icon-simple_cart {
+    background-position: center;
+    background-image: url('@public/assets/icons/ShoppingCartSimple.svg');
+}
+
+.icon-simple_cart-black {
+    background-position: center;
+    background-image: url('@public/assets/icons/ShoppingCartSimpleBlack.svg');
+}
+
+.icon-compare {
+    background-position: center;
+    background-image: url('@public/assets/icons/ArrowsCounterClockwise.svg');
+}
+
+.icon-eye {
+    background-image: url('@public/assets/icons/Eye.svg');
+}
+
+.icon-arrow-right_orange {
+    background-position: center;
+    background-image: url('@public/assets/icons/ArrowRightOrange.svg');
+}
+
+.icon-arrow-right_white {
+    background-position: center;
+    background-image: url('@public/assets/icons/ArrowRightWhite.svg');
+}
+
+.icon-arrow-left_white {
+    rotate: 180deg;
+    background-image: url('@public/assets/icons/ArrowRightWhite.svg');
+}
+
+.icon-arrow-left_orange {
+    rotate: 180deg;
+    background-image: url('@public/assets/icons/ArrowRightOrange.svg');
+}
+
+.icon-w24 {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-w20 {
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon-user-circle {
+    background-image: url('@public/assets/icons/UserCircle.svg');
+}
+
+.icon-calendar-blank {
+    background-image: url('@public/assets/icons/CalendarBlank.svg');
+}
+
+.icon-chat-circle-dots {
+    background-image: url('@public/assets/icons/ChatCircleDots.svg');
+}
+
+.icon-home {
+    background-image: url('@public/assets/icons/House.svg');
+}
+
+.icon-home_orange {
+    background-image: url('@public/assets/icons/HouseOrange.svg');
+}
+
+.icon-medal {
+    background-image: url('@public/assets/icons/Medal.svg');
+}
+
+.icon-truck {
+    background-image: url('@public/assets/icons/Truck.svg');
+}
+
+.icon-handshake {
+    background-image: url('@public/assets/icons/Handshake.svg');
+}
+
+.icon-head-phone_orange {
+    background-image: url('@public/assets/icons/Head_Phone_Orange.svg');
+}
+
+.icon-credit_card_orange {
+    background-image: url('@public/assets/icons/CreditCardOrange.svg');
+}
+
+.icon-google {
+    background-image: url('@public/assets/icons/Google.png');
+}
+
+.icon-apple {
+    background-image: url('@public/assets/icons/Apple.svg');
+}
+
+.icon-arrow-left_black {
+    background-image: url('@public/assets/icons/ArrowLeft.svg');
+}
+
+.icon-checks {
+    background-image: url('@public/assets/icons/Checks.svg');
+}
+
+.icon-user-blue {
+    background-image: url('@public/assets/icons/UserBlue.svg');
+}
+
+.icon-map-pin-line_blue {
+    background-image: url('@public/assets/icons/MapPinLineBlue.svg');
+}
+
+.icon-map-trifold_blue {
+    background-image: url('@public/assets/icons/MapTrifoldBlue.svg');
+}
+
+.icon-check-circle_green {
+    background-image: url('@public/assets/icons/CheckCircleGreen.svg');
+}
+
+.icon-notepad-blue {
+    background-image: url('@public/assets/icons/NotepadBlue.svg');
+}
+
+.icon24.more:before {
+    background-position: -168px -48px;
+}
+
+.icon-checkout-circle {
+    background-image: url('@public/assets/icons/checkout-circle.svg');
+}
+
+.icon-stack-orange {
+    background-image: url('@public/assets/icons/StackOrange.svg');
+}
+
+.icon-stack-white {
+    background-image: url('@public/assets/icons/StackWhite.svg');
+}
+
+.icon-close-cricle {
+    background-image: url('@public/assets/icons/close_cricle.svg');
+}
+
+.icon24.icon-setting {
+    &:before {
+        background-position: -264px -168px;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon24.icon-notify {
+    &:before {
+        background-position: -24px -48px;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon-toggle {
+    background: url('@public/assets/icons/ic_toggle.4abb3c52.svg');
+}
+
+.icon-add-white:before {
+    background-position: -192px -96px;
+}
+
+.icon-add-blue:before{
+    background-image: url('@public/assets/icons/add_blue.6a2d268a.svg');
+    background-position: 50%;
+}

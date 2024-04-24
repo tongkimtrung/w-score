@@ -13,7 +13,7 @@
 3. Clone project
 
     ```sh
-    git clone git@github.com:dinhphuquy2k1/e-commerce.git
+    git clone git@github.com:tongkimtrung/w-score.git
     ```
 
 4. build app
